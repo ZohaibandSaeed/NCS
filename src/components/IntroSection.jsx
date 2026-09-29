@@ -9,9 +9,9 @@ export default function IntroSection({ page, data }) {
   // RENDER FOR HOME PAGE
   if (page === 'home') {
     const points = [
-      'Talk to one of our best consultants today',
-      'Our experts are able to find new growth',
-      'Find more information on our website',
+      'First application, renewal, modification, lost card',
+      'Family registration matters',
+      'Applications for a child',
     ]
 
     return (
@@ -42,11 +42,10 @@ export default function IntroSection({ page, data }) {
             {/* Text Container */}
             <div className="order-1 lg:order-2 text-left flex flex-col justify-center">
               <h2 className="text-3xl font-extrabold text-gray-900 mb-6 leading-tight">
-                Apply For Nadra Card Online
+                What is a NICOP?
               </h2>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                There are numerous reasons to obtain your Overseas Card for administrative work, 
-                some of which are listed below:
+                The National Identity Card for Overseas Pakistanis or NICOP is a national id card granted to eligible Pakistani citizens who are living abroad. According to NADRA, NICOP is an official identity card for Pakistanis living abroad and provides services on issuing new applications, renewals, modifications and reprints. For the Pakistanis residing, working, studying or planning to stay outside Pakistan a NICOP can prove helpful.
               </p>
 
               <ul className="space-y-4 mb-8">
@@ -62,10 +61,7 @@ export default function IntroSection({ page, data }) {
 
               <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
                 <p className="text-gray-600 font-medium text-base sm:text-lg leading-relaxed">
-                  The quickest administration of the Card is 7-10 working days. Yet at the same time, 
-                  if you’re planning to travel within 2-3 days or in a week, relax. We’ll provide you 
-                  with an accommodation letter. You can easily travel by showing your Expired Card 
-                  and Submission letter to the Airline.
+                  Whether it is a first application, renewal, modification, lost card, family registration matter, or an application for a child, for many overseas Pakistanis applying for an identity document can be a complicated process. We shall be explaining the process of Pakistan nadra card uk in easy to understand words and will help avoid common mistakes.
                 </p>
               </div>
             </div>

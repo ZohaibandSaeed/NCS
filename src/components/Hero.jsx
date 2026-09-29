@@ -58,14 +58,12 @@ export default function Hero({ page, title, breadcrumb, onNavigate }) {
               </span>
             </div>
             
-            <h1 className="text-3xl sm:text-5xl lg:text-[56px] font-extrabold tracking-tight leading-[1.1] mb-6 max-w-xl">
-              GET NADRA CARD (NICOP) WITHIN 10 WORKING DAYS
+            <h1 className="text-3xl sm:text-5xl lg:text-[48px] font-extrabold tracking-tight leading-[1.1] mb-6 max-w-2xl">
+              NADRA Card Services for Pakistanis in the UK
             </h1>
             
-            <p className="text-white/90 text-base sm:text-lg mb-8 leading-relaxed max-w-xl font-normal">
-              We provide services to help you acquire your NADRA Card within 7-10 working days. 
-              No need to leave the comfort of your own home. We will do it all for you. 
-              Apply now to get your New NADRA card made, renewed or modified.
+            <p className="text-white/90 text-base sm:text-lg mb-8 leading-relaxed max-w-2xl font-normal">
+              Welcome to NADRA Card Centre, a support service for Pakistani families residing in the United Kingdom and require help in getting Pakistani identity documents. When you are looking for pakistan nadra card uk services we want to make you understand, organize and facilitate your searching process. For making an application it is made through the proper official channel, we assist applicants in clarifying and understanding the requirements, preparing information, checking documents, filling in application details and what comes next.
             </p>
             
             <div>

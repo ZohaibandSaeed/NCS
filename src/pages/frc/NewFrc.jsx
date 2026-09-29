@@ -7,14 +7,15 @@ import frcFirstImg from '../../assets/frc/frcfirst.jpeg'
 
 export default function NewFrc() {
   const pageData = {
-    title: 'Need a FRC Really Quick Contact Now Nadra Card Centre UK',
-    desc: 'The National Database Regulatory Authority\'s (NADRA) records of family composition and your identity are verified by your Family Registration Certificate (FRC). Everyone needs visas to fly overseas, usually to pursue higher education, immigration, or official business, and certificates are an integral part of that process.\n\nAs a result, NADRA Family Registration Certificate or FRC is one of the most crucial requirements for obtaining power of attorney when selling or purchasing properties on behalf of others. Would you also like to apply for a new FRC but are unsure of the process? Please don\'t worry; we\'ll take care of it at Nadra card centre UK.',
-    heading: 'Categories for the Application Of FRC',
+    title: 'New FRC UK',
+    desc: 'If you are a new FRC you can apply online from anywhere in the UK. Applying for Family Registration Certificate? When you start online from home the process is easy and convenient. You can fill in the application form provide your family information and submit the details required for your application. You might need the certificate for yourself or your family - our service can help you understand what to do next. Apply Now!',
+    heading: 'Easy Application for a New FRC',
     image: frcFirstImg,
     benefits: [
-      'FRC by Birth: contains information about your parents and siblings, as well as information about your spouse.',
-      'FRC by Marriage: includes the details of your spouse and children.',
-      'FRC by Adoption: includes details about your guardian in case of adoption.',
+      'Apply online from anywhere in the UK',
+      'Process is easy and convenient from home',
+      'Simply fill in the application form and family information',
+      'Get help understanding what to do next'
     ],
   }
 
@@ -22,8 +23,8 @@ export default function NewFrc() {
     <>
       <Hero 
         page="frc" 
-        title="New FRC" 
-        breadcrumb="New FRC" 
+        title="New FRC UK" 
+        breadcrumb="New FRC UK" 
       />
       <IntroSection data={pageData} />
       
@@ -40,59 +41,142 @@ export default function NewFrc() {
       <WhatsAppBanner />
 
       <section className="py-12 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-700">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Ways to Apply for The Nadra Family Registration Certificate</h2>
-          <p className="mb-4 leading-relaxed">
-            You can apply for the new FRC card in the following two ways:
-          </p>
-          <ul className="list-disc pl-6 mb-8 space-y-2">
-            <li>Visit the NADRA office</li>
-            <li>Online via Nadra card centre UK's website</li>
-          </ul>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-700">
 
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Nadra Office Application Process</h3>
-          <p className="mb-4">
-            Following the step-by-step instructions below visit your nearest NADRA Registration Center (NRC) to apply for a new FRC:
-          </p>
-          <ul className="list-decimal pl-6 mb-8 space-y-2">
-            <li>Your first step will be to receive a token and then wait for your turn.</li>
-            <li>Your name is called out and directed to your respective counter.</li>
-            <li>A picture of you will be taken after your name is called out.</li>
-            <li>Make sure that your data matches the existing NADRA records before you enter your data and review it.</li>
-            <li>You will receive your FRC after smoothly completing all the above steps.</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">The Process to Apply for Nadra Family Registration Certificate Online Via Nadra Card Centre UK</h3>
-          <p className="mb-4">
-            Here's how to Apply for NADRA Family Registration Certificate Online through the Nadra card centre UK:
-          </p>
-          <ul className="list-decimal pl-6 mb-8 space-y-2">
-            <li>Visit the Nadra card centre UK online portal.</li>
-            <li>Sign up for an account.</li>
-            <li>Start your application by clicking on APPLY NOW button and selecting a relevant category.</li>
-            <li>You will need to enter the details of your information in the online FRC application form.</li>
-            <li>Use a debit card or credit card for the NADRA FRC new fee.</li>
-            <li>When applying for NADRA FRC new online, you will need to scan and upload your passport-sized photo and carefully apply your finger imprints to the designated fields.</li>
-            <li>Take care of all the details while uploading the required documents and filling in the information for the FRC application.</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Remember These Key Points</h3>
-          <ul className="list-disc pl-6 mb-8 space-y-2">
-            <li>Locals, as well as overseas Pakistanis, can make online payments with credit card.</li>
-            <li>Only overseas applicants can use a debit card to make payments.</li>
-            <li>NADRA's e-Sahulat franchise also requires applicants to reside in Pakistan to make payments.</li>
-            <li>It is recommended that the photographs uploaded with the form have dimensions not more diminutive than 350 x 467. Upload passport-size images with a white background.</li>
-            <li>Take pictures professionally with the help of a sharp camera and upload a picture that is six months old.</li>
-          </ul>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">How to Apply for a Family Registration Certificate</h3>
+          <p className="mb-4 leading-relaxed">What is the procedure to apply for FRC from UK? The first process is very simple.</p>
+          <p className="mb-4 leading-relaxed">There are five steps in the application process:</p>
           
-          <div className="flex justify-center pt-4">
-            <Link 
-              to="/apply-now" 
-              className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1 no-underline"
-            >
-              Apply Now
-            </Link>
+          <h4 className="text-xl font-bold text-gray-900 mb-2 mt-6">Step 1: Fill in the Online Form</h4>
+          <p className="mb-4">Use the Apply Now button and complete the form with your personal information, and any family information that is applicable.</p>
+
+          <h4 className="text-xl font-bold text-gray-900 mb-2 mt-6">Step 2: Provide Your Documents</h4>
+          <p className="mb-4">The second step is to provide Your Documents.Step 2 is to submit Your Documents. Submit required paperwork and documentation. Unnecessary delays can be avoided with clear and accurate information.</p>
+
+          <h4 className="text-xl font-bold text-gray-900 mb-2 mt-6">Step 3: Application Review</h4>
+          <p className="mb-4">Upon receipt of information our staff will review your application. However, if there is something else that is needed we will be in touch.</p>
+
+          <h4 className="text-xl font-bold text-gray-900 mb-2 mt-6">Step 4: Fill in the Formalities</h4>
+          <p className="mb-4">The rest of the requirements will be explained to you. Other documentation or verification may be needed depending on the situation.</p>
+
+          <h4 className="text-xl font-bold text-gray-900 mb-2 mt-6">Step 5: Get Your Certificate</h4>
+          <p className="mb-8">Once your application is processed your certificate will be issued based on the process applicable.</p>
+
+          <div className="flex justify-center mb-12">
+            <Link to="/apply-now" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">APPLY FOR FRC NOW</Link>
           </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">FRC NADRA Online</h3>
+          <p className="mb-4 leading-relaxed">An FRC NADRA application can be started online by Pakistani citizens living in the United Kingdom.</p>
+          <p className="mb-4 leading-relaxed">You can use a computer tablet or mobile phone to provide your initial information.</p>
+          <p className="mb-4 leading-relaxed">Request a FRC NADRA service by clicking on the Apply Now link and filling out the form carefully.</p>
+          <p className="mb-8 leading-relaxed">We will look over your information and let you know what the next steps are relevant to your application.</p>
+
+          <div className="flex justify-center mb-12">
+            <Link to="/apply-now" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">APPLY NOW</Link>
+          </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">FRC Pakistan NADRA Card</h3>
+          <p className="mb-4 leading-relaxed">To apply for a FRC Pakistan (National Directory of Registration of Acceptable names) Card you have to start the application with your personal details and family details.</p>
+          <p className="mb-4 leading-relaxed">The information that is needed could be based on the family situation and on the records of the family members.</p>
+          <p className="mb-8 leading-relaxed">If you are not exactly certain of what is needed, begin the application and we will tell you what's next.</p>
+
+          <div className="flex justify-center mb-12">
+            <Link to="/apply-now" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">START YOUR APPLICATION</Link>
+          </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Documents for a Family Registration Certificate</h3>
+          <p className="mb-4 leading-relaxed">When making out this application the applicant must have information about the applicant's identity and family available.</p>
+          <p className="mb-2 leading-relaxed">You will be requested to submit:</p>
+          <ul className="list-disc pl-6 mb-4 space-y-1">
+            <li>Pakistani identity card information</li>
+            <li>Passport details</li>
+            <li>Details of parents and family members</li>
+            <li>Marriage information if applicable</li>
+            <li>Information about children if applicable.</li>
+            <li>Additional supporting documents</li>
+          </ul>
+          <p className="mb-4 leading-relaxed">Information is crucial in an FRC application and should be accurate and clear.</p>
+          <p className="mb-4 leading-relaxed">In case you are unsure which documents you need you should begin the application and our team will let you know what is necessary.</p>
+          <p className="mb-8 leading-relaxed">Please check the application requirements.</p>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">The way to get the best out of your FRC Services across the full UK.</h3>
+          <p className="mb-4 leading-relaxed">Applicants based in London, Birmingham, Manchester, Glasgow, Leeds, Bradford, Leicester, Liverpool and elsewhere in the UK are able to start their application electronically.</p>
+          <p className="mb-4 leading-relaxed">This way you can give details of yourself without having to make the initial application complicated.</p>
+          <p className="mb-4 leading-relaxed">Service is provided for Pakistani families across England, Scotland, Wales and Northern Ireland.</p>
+          <p className="mb-8 leading-relaxed">The NADRA CARD CENTRE team will be able to check on the information you provide and counsel you on the requirements that apply to you.</p>
+
+          <div className="flex justify-center mb-12">
+            <Link to="/apply-now" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">APPLY NOW</Link>
+          </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">What Is a Family Registration Certificate?</h3>
+          <p className="mb-4 leading-relaxed">What is a Family Registration Certificate?</p>
+          <p className="mb-4 leading-relaxed">A Family Registration Certificate is a document that has details of the family members who are registered with Pakistani Identity Records.</p>
+          <p className="mb-4 leading-relaxed">An FRC is required for a personal or official need and an application can be initiated online.</p>
+          <p className="mb-4 leading-relaxed">Information that may be included may vary with the family records of the applicant.</p>
+          <p className="mb-4 leading-relaxed">Ensure accuracy and consistency of details provided with existing documents.</p>
+          <p className="mb-4 leading-relaxed">As far as the FRC is concerned Pakistan's families are the Pakistani Families - FRC NADRA.</p>
+          <p className="mb-4 leading-relaxed">There are several reasons why a Pakistani family living in the UK might require an FRC.There are various reasons for which a Pakistani family in the UK may require an FRC.</p>
+          <p className="mb-4 leading-relaxed">For any FRC NADRA services the first step is to fill out the online application form.</p>
+          <p className="mb-4 leading-relaxed">You can submit your information at home and can get advice on the documents and information you need for your situation.</p>
+          <p className="mb-8 leading-relaxed">When filling in your family details on the form if they have changed please give the up-to-date details if relevant.</p>
+
+          <div className="flex justify-center mb-12">
+            <Link to="/apply-now" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">NADRA CARD CENTRE</Link>
+          </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">How Long Does It Take?</h3>
+          <p className="mb-4 leading-relaxed">The time involved may vary based on the information provided the number of family Once you start an application maintain your application and references to be used later.</p>
+          <p className="mb-4 leading-relaxed">When further information and/or documents are requested supply them as soon as possible to prevent any delays.</p>
+          <p className="mb-4 leading-relaxed">The NADRA CARD CENTRE team can also guide you on what you need to do after making the initial application.</p>
+          <p className="mb-8 leading-relaxed">Ensure all the information provided is correct and consistent with supporting documents.</p>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Keep Track of Your Application</h3>
+          <p className="mb-4 leading-relaxed">After beginning your application keep your application and reference information available for future use.</p>
+          <p className="mb-4 leading-relaxed">If additional information or documents are requested, provide them as soon as possible to avoid unnecessary delays.</p>
+          <p className="mb-4 leading-relaxed">The NADRA CARD CENTRE team can also guide you about what you need to do after completing the initial application.</p>
+          <p className="mb-8 leading-relaxed">Make sure that all information submitted is accurate and matches your supporting documents.</p>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">FAQs</h3>
+          <div className="space-y-4 mb-8">
+            <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+              <h4 className="font-bold text-lg text-emerald-800 mb-2">May I submit a new FRC from the UK?</h4>
+              <p>Yes. The Pakistani citizens residing in U.K. can submit their application online by filling personal and family details.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+              <h4 className="font-bold text-lg text-emerald-800 mb-2">What Is a Family Registration Certificate?</h4>
+              <p>A Family Registration Certificate gives information regarding individuals enlisted within Pakistani ID records as family members.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+              <h4 className="font-bold text-lg text-emerald-800 mb-2">Can I Apply Online?</h4>
+              <p>Yes. The first application is available online worldwide in the UK.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+              <h4 className="font-bold text-lg text-emerald-800 mb-2">What are the documents necessary?</h4>
+              <p>Documents may differ based on your particular factors. Information about identification, passport family may be needed.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
+              <h4 className="font-bold text-lg text-emerald-800 mb-2">What steps do I take to start my Application?</h4>
+              <p>Click on Apply Now, fill in the online form and provide the requested information. Our team will then guide you through the next steps.</p>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Start your new FRC Application Today!</h3>
+          <p className="mb-4 leading-relaxed">It's preferable to begin your FRC application before it is necessary for you to obtain the certificate urgently.</p>
+          <p className="mb-4 leading-relaxed">Our online service offers you the opportunity to start anywhere in the UK.</p>
+          <p className="mb-4 leading-relaxed">If you are looking for information regarding family registration, or family registration information for yourself or your family, the first thing that needs to be done is to complete the family registration application and give accurate information.</p>
+          <p className="mb-8 leading-relaxed">You can follow the remaining process with the help of the team of NADRA CARD CENTRE.</p>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Start?</h3>
+          <p className="mb-4 leading-relaxed">Apply Now to start your application.</p>
+          <p className="mb-4 leading-relaxed">Fill in the form today and provide your information.</p>
+          <p className="mb-8 leading-relaxed">Allow our staff to lead you down the road of further action.</p>
+
+          <div className="flex justify-center mb-12">
+            <Link to="/apply-now" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1">APPLY NOW</Link>
+          </div>
+
         </div>
       </section>
     </>
